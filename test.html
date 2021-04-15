@@ -13,16 +13,10 @@ var a=document.getElementsByTagName("body")[0];
 var x,y;
 a.addEventListener("mousemove",(e)=>{
 console.log(e.offsetX+" "+e.offsetY);
-if(e.offsetX>700)
-x=-700;
-else
 x=-e.offsetX;
-if(e.offsetX>500)
-y=-500;
-else
-y=-e.offsetX;
-  a.style.backgroundPositionX =  x+ "px";
-  a.style.backgroundPositionY = y + "px";
+y=-e.offsetY;
+  a.style.backgroundPositionX =  x/6+ "px";
+  a.style.backgroundPositionY = y/6 + "px";
 });
 }
 </script>
