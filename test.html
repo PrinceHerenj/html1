@@ -4,14 +4,25 @@
 .a
 {
 background-image: url("wp3658143-alone-wallpapere.jpg");
+background-repeat: no-repeat;
 }
 </style>
 <script>
 window.onload=function(){
 var a=document.getElementsByTagName("body")[0];
-a.addEventListener("mousemove", (e) => {
-  a.style.backgroundPositionX = -e.offsetX + "px";
-  a.style.backgroundPositionY = -e.offsetY + "px";
+var x,y;
+a.addEventListener("mousemove",(e)=>{
+console.log(e.offsetX+" "+e.offsetY);
+if(e.offsetX>700)
+x=-700;
+else
+x=-e.offsetX;
+if(e.offsetX>500)
+y=-500;
+else
+y=-e.offsetX;
+  a.style.backgroundPositionX =  x+ "px";
+  a.style.backgroundPositionY = y + "px";
 });
 }
 </script>
