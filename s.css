@@ -1,25 +1,17 @@
 body {
-    background:
-            radial-gradient(black 3px, transparent 4px),
-            radial-gradient(black 3px, transparent 4px),
-            linear-gradient(#fff 4px, transparent 0),
-            linear-gradient(45deg, transparent 74px, transparent 75px, #a4a4a4 75px, #a4a4a4 76px, transparent 77px, transparent 109px),
-            linear-gradient(-45deg, transparent 75px, transparent 76px, #a4a4a4 76px, #a4a4a4 77px, transparent 78px, transparent 109px),
-            #fff;
-    background-size: 109px 109px, 109px 109px,100% 6px, 109px 109px, 109px 109px;
-    background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
+        background-image: url("2.png");
 }
 .bg
 {
     text-align: center;
-    margin-left: 150px;
-    margin-right: 150px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 200px;
+    display: inline-block;
+    padding-left: 280px;
+    padding-right: 280px;
+    padding-bottom: 150px;
     border: 2px solid #ffffff;
     border-radius: 7px;
     background-image: url("wp3658143-alone-wallpapere.jpg");
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -30,7 +22,8 @@ body {
 
 .center-buttons
 {
-    margin-left: 700px;
+    display: inline-block;
+    margin: auto;
     margin-top: 400px;
     position: relative;
     text-align: center;
