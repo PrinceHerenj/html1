@@ -28,15 +28,30 @@ body {
     position: relative;
     text-align: center;
 }
-.rcorners1 {
-    border-radius: 25px;
-    background: #ffffff;
-    padding: 20px;
-    width: 200px;
-    height: 150px;
+.inc
+{
     display: inline-block;
-    margin-top: 10px;
+    margin-top: 500px;
     position: relative;
+    text-align: center;
+}
+.rcorners1 {
+    text-align: center;
+    border-radius: 25px;
+    background: whitesmoke;
+    opacity: 0.5;
+    padding: 20px;
+    width: 1000px;
+    height: 150px;
+    margin: 10px;
+    position: relative;
+}
+.resize
+{
+    font-family: Nunito;
+    font-size: large;
+    word-wrap: break-word;
+    text-shadow: 0.5px 0.5px 0px #000000;
 }
 .gallery
 {
@@ -49,14 +64,17 @@ body {
     display: inline-block;
     color: white;
     background-color: transparent;
-    font-family: Arial;
+    font-family: Nunito;
 }
+
+
 
 .gallery:hover
 {
     cursor: pointer;
-    background-color: azure;
+    background-color: whitesmoke;
+    opacity: 0.75;
     color: black;
-    transition: background-color 0.1s linear;
-    transition: color 0.1s linear;
+    transition: background-color 0.15s linear;
+    transition: color 0.15s linear;
 }
