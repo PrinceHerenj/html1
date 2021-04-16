@@ -31,20 +31,32 @@ body {
 .inc
 {
     display: inline-block;
-    margin-top: 500px;
     position: relative;
     text-align: center;
 }
 .rcorners1 {
     text-align: center;
-    border-radius: 25px;
+    border-radius: 15px;
     background: whitesmoke;
     opacity: 0.5;
+    padding: 20px;
+    width: 1000px;
+    height: 250px;
+    margin: 20px;
+    margin-left: 60px;
+    position: relative;
+    box-shadow: black;
+}
+
+.rcorners {
+    text-align: center;
+    border-radius: 25px;
     padding: 20px;
     width: 1000px;
     height: 150px;
     margin: 10px;
     position: relative;
+    box-shadow: black;
 }
 .resize
 {
@@ -52,6 +64,11 @@ body {
     font-size: large;
     word-wrap: break-word;
     text-shadow: 0.5px 0.5px 0px #000000;
+}
+.resize-pic
+{
+    width: 300px;
+    height: 400px;
 }
 .gallery
 {
