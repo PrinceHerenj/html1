@@ -28,7 +28,16 @@ body {
     position: relative;
     text-align: center;
 }
-
+.rcorners1 {
+    border-radius: 25px;
+    background: #ffffff;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+    display: inline-block;
+    margin-top: 10px;
+    position: relative;
+}
 .gallery
 {
     margin: 5px;
